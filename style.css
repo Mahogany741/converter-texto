@@ -1,0 +1,65 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,35,51,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    align-items: flex-start;
+    width: 450px;
+    height: 450px;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(242, 242, 242);
+    resize: none;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    /* outline: 0px; */
+}
+
+button{
+    margin-top: 25px;
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(45deg, rgb(54, 135, 167), rgb(65, 3, 138), rgb(4, 75, 226));
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    
+}
+
+#minusc{
+    background: rgb(46,71,117);
+    background: radial-gradient(circle, rgba(46,71,117,1) 0%, rgba(0,63,136,1) 100%);
+}
